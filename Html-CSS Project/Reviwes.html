@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="Reviwes.css">
+</head>
+<body>
+      <div class="container">
+        <h1>Website Reviews</h1>
+        <p>We value your feedback! Please leave your review and rating below:</p>
+        <form class="review-form">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="rating">Rating (1-5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5" required>
+          </div>
+          <div class="form-group">
+            <label for="review">Your Review:</label>
+            <textarea id="review" name="review" rows="4" required></textarea>
+          </div>
+          <button type="submit">Submit Review</button>
+        </form>
+      </div>
+    </body>
+    </html>
+
+    
